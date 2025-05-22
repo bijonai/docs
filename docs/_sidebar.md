@@ -1,7 +1,0 @@
-* [⚙️ Products](/products)
-  * [EchoAI](/products/echoai)
-  * [SayoAI](/products/sayoai)
-* [📖 API Reference](/api)
-* [👩‍💻 Guides](/guides)
-* [👥 Community](/community)
-* [💬 About](/about)
