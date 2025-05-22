@@ -11,12 +11,34 @@ const sidebar: DefaultTheme.Sidebar = [
     text: 'Guides',
     items: [
       {
-        text: 'About EchoAI',
-        link: '/documentation/guides/about-echoai'
+        text: 'Introduction',
+        items: [
+          {
+            text: 'About EchoAI',
+            link: '/documentation/guides/about-echoai'
+          },
+          {
+            text: 'Sciux Community',
+            link: '/documentation/guides/sciux-community'
+          }
+        ]
       },
       {
-        text: 'Sciux Community',
-        link: '/documentation/guides/sciux-community'
+        text: 'Modules',
+        items: [
+          {
+            text: 'Whiteboard',
+          },
+          {
+            text: 'Timeline',
+          },
+          {
+            text: 'Chat',
+          },
+          {
+            text: 'Resource Community',
+          }
+        ]
       }
     ]
   },
