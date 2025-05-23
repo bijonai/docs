@@ -67,6 +67,26 @@ const sidebar: DefaultTheme.Sidebar = [
         ]
       },
       {
+        text: 'Workflow',
+        items: [
+          {
+            text: 'Getting Started',
+          },
+          {
+            text: 'Designer Context'
+          },
+          {
+            text: 'Layout Context',
+          },
+          {
+            text: 'Chalk Context'
+          },
+          {
+            text: 'Speaker Context',
+          }
+        ]
+      },
+      {
         text: 'Design Guidelines',
         items: [
           {
