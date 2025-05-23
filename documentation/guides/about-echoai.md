@@ -85,7 +85,7 @@ EchoAI是一个带有交互式白板的陪伴式AI学长，它可以帮助你学
 
 用户可以点击获取并使用这个资源来新建一个对话，通过EchoAI来学习这个课程
 
-## 工作流设计
+## 🪢 工作流设计
 
 我们的功能由四个LLM上下文组成:
 
@@ -94,19 +94,19 @@ EchoAI是一个带有交互式白板的陪伴式AI学长，它可以帮助你学
 - 🧑‍🎨 Layout: 布局设计师，它将根据Designer的设计来给出对应的布局，组件与游戏
 - 👩‍💻 Chalk: 画师，它将根据Layout的设计来写出Sciux代码或对现有文档进行操作和修改
 
-## 知识库
+## 📚 知识库
 
 Chalk通过RAG来检索知识库中的组件文档和各个知识点的绘图示例，我们希望通过扩大知识库的容量和提高质量来提升画板的功能性和组合多样性。
 
 目前的知识库放在EchoAI的GitHub仓库中: https://github.com/bijonai/EchoAI/tree/main/database
 
-## 社区结构
+## 🌐 社区结构
 
 - 本项目由BijonAI开发，BijonAI是一个创新型的AI团队 [GitHub](https://github.com/bijonai)
 - EchoAI GitHub 仓库: [EchoAI](https://github.com/bijonai/echoai)
 - Sciux Github 组织: [Sciux](https://github.com/sciux-kit)
 
-## 联系我们
+## 📧 联系我们
 
 - 邮箱: [info@bijon.ai](mailto:info@bijon.ai)
 - 官网: [BijonAI](https://bijon.ai)
