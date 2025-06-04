@@ -2,7 +2,8 @@ import { DefaultTheme } from "vitepress";
 
 const blogs: DefaultTheme.Sidebar = [
   {
-    text: '2025.05.22@流式输出进行伪工具调用以增强参数的推理性和操作速度'
+    text: '2025.06.04@关于EchoAI对于结构化数据的生成与更改',
+    link: '/blog/2025-06-04'
   }
 ]
 

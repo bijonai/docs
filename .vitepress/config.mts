@@ -1,8 +1,9 @@
-import { defineConfig } from 'vitepress'
 import content from './content.mts'
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+// .vitepress/config.js
+import { withMermaid } from "vitepress-plugin-mermaid";
+
+export default withMermaid({
   title: "EchoAI",
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
@@ -24,5 +25,18 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/bijonai/EchoAI' },
       { icon: 'x', link: 'https://x.com/bijon_ai' },
     ]
-  }
-})
+  },
+  mermaid: {
+    theme: "forest",
+    gantt: {
+      titleTopMargin: 25,
+      barHeight: 10,
+      barGap: 40,
+      topPadding: 75,
+    }
+  },
+  // optionally set additional config for plugin itself with MermaidPluginConfig
+  mermaidPlugin: {
+    class: "mermaid my-class", // set additional css classes for parent container 
+  },
+});
